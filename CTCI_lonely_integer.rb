@@ -7,7 +7,8 @@ a = a.split(' ').map(&:to_i)
 value = 0
 
 a.each do |val|
-   value ^= val 
+	# XOR operator
+   	value ^= val
 end
 
 puts value

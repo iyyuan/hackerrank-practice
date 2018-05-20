@@ -6,7 +6,6 @@ import random
 import re
 import sys
 
-# Complete the minimumAbsoluteDifference function below.
 def minimumAbsoluteDifference(n, arr):
     # Sort the array
     a = arr
